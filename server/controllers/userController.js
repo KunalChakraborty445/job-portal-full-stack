@@ -96,13 +96,7 @@ export const updateUserResume = async (req, res) => {
         const userData = await User.findById(userId)
 
         if (resumeFile) {
-            const resumeUpload = await cloudinary.uploader.upload(resumeFile.path,{
-            resource_type: "raw", // Important for PDFs
-            public_id: `resumes/${userId}_${Date.now()}`,
-            folder: "job_portal_resumes",
-            access_mode: "public" 
-            })
-            
+            const resumeUpload = await cloudinary.uploader.upload(resumeFile.path)
             userData.resume = resumeUpload.secure_url
         }
 
