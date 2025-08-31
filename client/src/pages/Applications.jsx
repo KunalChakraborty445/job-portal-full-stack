@@ -70,43 +70,14 @@ const Applications = () => {
                 </label>
                 <button onClick={updateResume} className='bg-green-100 border border-green-400 rounded-lg px-4 py-2'>Save</button>
               </>
-              : <div className="flex flex-col gap-2 w-full">
-                <div className="flex gap-2">
-                  <button 
-                    onClick={() => window.open(userData.resume, "_blank")} 
-                    className='bg-blue-100 text-blue-600 px-4 py-2 rounded-lg'
-                  >
-                    Open in New Tab
-                  </button>
-                  <a 
-                    href={userData.resume} 
-                    download 
-                    className='bg-green-100 text-green-600 px-4 py-2 rounded-lg'
-                  >
-                    Download
-                  </a>
-                  <button 
-                    onClick={() => setIsEdit(true)} 
-                    className='text-gray-500 border border-gray-300 rounded-lg px-4 py-2'
-                  >
-                    Edit
-                  </button>
-                </div>
-
-                  {/* PDF Preview */}
-                  {userData.resume && (
-                    <div className="mt-4 border rounded-lg overflow-hidden">
-                      <iframe
-                        src={userData.resume}
-                        title="Resume Preview"
-                        width="100%"
-                        height="500px"
-                        className="rounded-lg"
-                      />
-                    </div>
-                  )}
-                </div>
-
+              : <div className='flex gap-2'>
+                <a target='_blank' href={userData.resume} className='bg-blue-100 text-blue-600 px-4 py-2 rounded-lg'>
+                  Resume
+                </a>
+                <button onClick={() => setIsEdit(true)} className='text-gray-500 border border-gray-300 rounded-lg px-4 py-2'>
+                  Edit
+                </button>
+              </div>
           }
         </div>
         <h2 className='text-xl font-semibold mb-4'>Jobs Applied</h2>
