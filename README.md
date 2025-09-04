@@ -5,24 +5,24 @@ InsiderJob is a full-stack MERN job portal that connects job seekers with compan
 🚀 Tech Stack
 
 Frontend: React.js, Tailwind CSS, Axios <br>
-Backend: Node.js, Express.js, MongoDB (Mongoose)
-Authentication & User Management: Clerk
-Error Tracking & Monitoring: Sentry
-File Uploads: Multer (for resumes, images)
-Deployment: Vercel (frontend), Render/Heroku (backend), MongoDB Atlas
+Backend: Node.js, Express.js, MongoDB (Mongoose) <br>
+Authentication & User Management: Clerk <br>
+Error Tracking & Monitoring: Sentry <br>
+File Uploads: Multer (for resumes, images) <br>
+Deployment: Vercel (frontend), Render/Heroku (backend), MongoDB Atlas <br>
 
 __________________________________________________________________________
 
 ✨ Features
 
-👤 User Authentication – secure login/signup with Clerk
-🏢 Company Dashboard – post, edit, and manage jobs
-💼 Job Seeker Dashboard – browse, filter, and apply for jobs
-📄 Resume Upload – upload documents via Multer
-📊 Application Tracking – companies can track applicants
-🛠️ Error Monitoring – integrated Sentry for real-time error tracking
-🔒 Secure API Calls – Axios with JWT-based authentication
-📱 Responsive UI – mobile-friendly interface with Tailwind
+👤 User Authentication – secure login/signup with Clerk <br>
+🏢 Company Dashboard – post, edit, and manage jobs <br>
+💼 Job Seeker Dashboard – browse, filter, and apply for jobs<br>
+📄 Resume Upload – upload documents via Multer <br>
+📊 Application Tracking – companies can track applicants <br>
+🛠️ Error Monitoring – integrated Sentry for real-time error tracking <br>
+🔒 Secure API Calls – Axios with JWT-based authentication <br>
+📱 Responsive UI – mobile-friendly interface with Tailwind <br>
 
 __________________________________________________________________________
 
@@ -50,7 +50,7 @@ __________________________________________________________________________
 
 🚧 Future Improvements
 
-Resume parsing & AI-powered job matching
-Admin dashboard for analytics
+Resume parsing & AI-powered job matching <br>
+Admin dashboard for analytics <br>
 Email notifications for job updates
 
