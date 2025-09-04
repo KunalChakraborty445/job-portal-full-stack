@@ -43,7 +43,7 @@ __________________________________________________________________________
 
 📱 Visit Link
 
-<a href="https://job-portal-full-stack-client-wine.vercel.app/">Insiderjob</a>
+<a href="https://job-portal-full-stack-client-wine.vercel.app/" target="_blank">Insiderjob</a>
 
 
 __________________________________________________________________________
