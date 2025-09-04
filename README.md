@@ -29,14 +29,14 @@ __________________________________________________________________________
 🛠️ Project structure
 
 InsiderJob/
-│── client/         # React frontend
-│── server/         # Express backend
-│── models/         # Mongoose schemas
-│── routes/         # API routes
-│── controllers/    # Business logic
-│── middleware/     # Auth & error handling
-│── uploads/        # Multer storage (resumes/images)
-│── .env.example    # Environment variables template
+│── client/         # React frontend <br>
+│── server/         # Express backend <br>
+│── models/         # Mongoose schemas <br>
+│── routes/         # API routes<br>
+│── controllers/    # Business logic<br>
+│── middleware/     # Auth & error handling<br>
+│── uploads/        # Multer storage (resumes/images)<br>
+│── .env.example    # Environment variables template<br>
 │── README.md
 
 __________________________________________________________________________
