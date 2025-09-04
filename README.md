@@ -4,7 +4,8 @@ InsiderJob is a full-stack MERN job portal that connects job seekers with compan
 
 🚀 Tech Stack
 
-Frontend: React.js, Tailwind CSS, Axios
+Frontend: React.js, Tailwind CSS, Axios 
+
 Backend: Node.js, Express.js, MongoDB (Mongoose)
 Authentication & User Management: Clerk
 Error Tracking & Monitoring: Sentry
